@@ -1,0 +1,14 @@
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script>
+    var 
+        url = new URL(window.location.href),
+        to = url.searchParams.get("to")
+        timer = url.searchParams.get("timer");
+    
+    if(timer == undefined) timer = 1;
+    
+    window.location.href = to;
+</script>
+
+Loading...
