@@ -8,7 +8,9 @@
     
     if(timer == undefined) timer = 1;
     
-    window.location.href = to;
+    setTimeout(function() {
+        window.location.href = to;
+    }, timer * 1000);
 </script>
 
 Loading...
